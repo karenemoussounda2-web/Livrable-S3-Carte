@@ -5,7 +5,9 @@ body {
   /* text-align: center; */
   font-family: "Gill Sans Extrabold", sans-serif;
 }
-
+h1 {
+  text-align: center;
+}
 .carte {
   display: flex;
   justify-content: space-between;
