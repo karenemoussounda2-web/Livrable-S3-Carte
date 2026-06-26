@@ -1,0 +1,51 @@
+body {
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  /* text-align: center; */
+  font-family: "Gill Sans Extrabold", sans-serif;
+}
+
+.carte {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid black; */
+  margin: 30px;
+  padding: 20px;
+  width: 1000px;
+  height: auto;
+  background-color: #f5f5f5;
+}
+article {
+  width: 50%;
+  height: auto;
+  /* border: 1px solid black; */
+}
+
+.info {
+  margin-left: 10px;
+}
+.info h2 {
+  text-decoration: underline;
+}
+#prix {
+  color: rgb(148, 37, 37);
+  font-weight: bold;
+}
+
+#ajouter {
+  margin-left: 25%;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #4caf50;
+}
+
+#ajouter:hover {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
