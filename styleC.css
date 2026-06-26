@@ -12,8 +12,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border: 1px solid black; */
-  margin: 30px;
+  margin: auto;
   padding: 20px;
   width: 1000px;
   height: auto;
